@@ -434,6 +434,7 @@ Portfolio Section */
 /* Contact Us Section*/
 .contact{
     background-image: url(../img/overlay-bg.jpg);
+    background-size: cover;
 }
 .contact .numbers-layer, .contact{
   height: 130vh;
