@@ -3,10 +3,10 @@
   padding: 0;
   box-sizing: border-box;
   color: black;
+  overflow-x: hidden;
 }
 body{
   background-color: #f5f5f5;
-  overflow-x: hidden;
 }
 ul {
   list-style-type: none;
@@ -214,9 +214,9 @@ h1 {
   h1{
     font-size: 30px;
    }
-   .animate-content::after {
-    font-size: 1.2rem;
-  }
+    .animate-content::after {
+  font-size: 1.2rem;
+}
 }
 
 
@@ -436,17 +436,17 @@ Portfolio Section */
     background-image: url(../img/overlay-bg.jpg);
 }
 .contact .numbers-layer, .contact{
-  height: 100vh;
+  height: 130vh;
   width: 100%; 
 }
 @media (max-width: 992px){
   .contact .numbers-layer, .contact{
-    height: 170vh;
+    height: 180vh;
   }
 }
 @media (max-width: 764px){
   .contact .numbers-layer, .contact{
-    height: 180vh;
+    height: 200vh;
   }
 }
 .contact button{
@@ -475,36 +475,7 @@ Portfolio Section */
   border: 3px solid #a2cff7;
 }
 
-/* .left-title{
-    font-size: 2rem;
-}
-.form-control
-{
-    background-color: transparent;
-    width: 110%;
-    border-radius: 0px;
-    border-color: rgb(104, 103, 103);
-}
-.form-control::placeholder{
-    color: rgb(131, 133, 134);
-}
-.right-part p{
-    font-size: 1.4rem;
-}
-.right-part .circle{
-    height: 40px;
-    width: 40px;
-    border: 3px solid rgb(51, 161, 255);
-} */
-
-/* footer */
-/* .footer-content{
-    font-size: 1.3rem;
-}
-footer{
-    background-color: #004ea9;
-} */
-
+/* footer section */
 .footer-content{
   background-color: #33a1ff;
 }
